@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GunTestScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4185dd7f13dd3b8408ae6452fc4a6e8c,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c19b24d466f13b44c83df6e13f35983a,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 54c76d50b04702f448eff3774104a272,
+      type: 2}
