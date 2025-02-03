@@ -19,5 +19,8 @@ public class Magazine : MonoBehaviour
         attachedGun = null;
         onGun = false;
         Debug.Log("Magazine detached from gun.");
+
+        // Destroy(this.gameObject);
+
     }
 }

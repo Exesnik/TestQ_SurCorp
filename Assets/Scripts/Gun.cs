@@ -39,8 +39,10 @@ public class Gun : MonoBehaviour
             Debug.Log("Hit: " + hit.collider.name);
     }
 
-    public void InsertMagazine(Magazine magazine)
+    public void InsertMagazine()
     {
+        Magazine magazine = GetComponentInChildren<Magazine>();
+
         if (magazine == null)
         {
             Debug.Log("No magazine provided.");

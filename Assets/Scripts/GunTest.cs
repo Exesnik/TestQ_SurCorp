@@ -22,7 +22,7 @@ public class GunTest : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.I))
         {
-            gun.InsertMagazine(testMagazine);
+            gun.InsertMagazine();
         }
         if (Input.GetKeyDown(KeyCode.E))
         {

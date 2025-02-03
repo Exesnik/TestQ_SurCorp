@@ -6,7 +6,7 @@ public class Slide : MonoBehaviour
     public ConfigurableJoint joint;
     public Vector3 retractedPosition;
     public float pullDistance = 0.1f;
-    public float threshold = 0.02f; // Порог для определения крайнего положения затвора
+    public float threshold = 0.02f;     
     public UnityEvent OnRetracted;
     public UnityEvent OnReleased;
 
@@ -22,7 +22,7 @@ public class Slide : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Определяем положение затвора по оси Z относительно начальной позиции
+        
         float pos = Mathf.Clamp01((transform.localPosition.z - startPos.z) / pullDistance);
 
         if (!isRetracted && pos >= 1 - threshold)
